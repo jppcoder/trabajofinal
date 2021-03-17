@@ -89,9 +89,12 @@ function displayCart() {
     cartItems = JSON.parse(cartItems);
     let productContainer =  document.querySelector(".products");
     productContainer.innerHTML = `<div> "PRUEBA" </div> `
-  console.log(cartItems);  
-  /*if (cartItems && productContainer) {
-    productContainer.innerHTML = ' ' ;
+  
+    console.log(cartItems);  
+  
+    if (cartItems && productContainer) {
+    productContainer.innerHTML = ` ` ;
+  
     Object.values(cartItems).map(item => {
         console.log(DATOS.nombre);
         productContainer.innerHTML += `
@@ -105,7 +108,7 @@ function displayCart() {
         `
     })
  }
- */ 
+  
 }
 
 onloadCartNumbers();

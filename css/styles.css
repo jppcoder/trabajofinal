@@ -134,3 +134,9 @@ li a {
     display: flex;
     align-items: center;
 }
+
+.products {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(211, 210, 210);
+}
